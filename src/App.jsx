@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div>
-        <Presentacion />
+        <Presentacion frase="hello, hello!" />
       </div>
     </>
   )

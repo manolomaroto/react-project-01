@@ -1,5 +1,5 @@
-function Presentacion() {
-    return (<h1>Hola</h1>)
+function Presentacion({frase}) {
+    return (<h1>{frase}</h1>)
 }
 
 export default Presentacion
