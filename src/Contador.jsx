@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import MiBoton from './MiBoton';
 
 function Contador() {
     const [cuenta, setCuenta] = useState(0);
@@ -6,7 +7,7 @@ function Contador() {
     return (
         <div>
             <p>contador: {cuenta}</p>
-            <button onClick={() => setCuenta(cuenta + 1)}>Sumar</button>
+            <MiBoton texto='Sumar' onClick={() => setCuenta(cuenta + 1)} />
         </div>
     )
 }
